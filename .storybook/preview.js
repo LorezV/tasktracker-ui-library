@@ -1,4 +1,4 @@
-import "../src/styles/stylebase.scss"
+import "../styles/stylebase.scss"
 
 /** @type { import('@storybook/vue3').Preview } */
 const preview = {
