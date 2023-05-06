@@ -1,0 +1,30 @@
+@use "sass:color";
+
+$colors: (
+        "primary": #7367F0,
+        "secondary": #A8AAAE,
+        "success": #28C76F,
+        "danger": #EA5455,
+        "warning": #FF9F43,
+        "info": #00CFE8,
+);
+
+$colors: (
+        "primary": #7367F0,
+        "secondary": #A8AAAE,
+        "success": #28C76F,
+        "danger": #EA5455,
+        "warning": #FF9F43,
+        "info": #00CFE8,
+);
+
+$color-dark: var(--color-dark);
+$color-light: var(--color-light);
+$color-white: var(--color-white);
+$color-disabled: rgb(51, 48, 60, 0.26);
+
+$body-background: var(--body-background);
+$card-background: var(--card-background);
+$divider-color: var(--divider-color);
+
+$border-radius: 5px;

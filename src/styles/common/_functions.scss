@@ -1,0 +1,10 @@
+@use "sass:color";
+@use "variables";
+
+@function get-text-color($background-color) {
+  @if color.whiteness($background-color) < 66% {
+    @return #{variables.$color-white};
+  } @else {
+    @return #{variables.$color-dark};
+  }
+}
